@@ -81,15 +81,15 @@ git checkout --file 可以丢弃工作区的修改，修改有两种情况
 ##### 从远程仓库克隆 (先有远程库)
 
 ```
-$ git clone git@github.com:renyuns/gitskills.git  修改为自己的git用户名和库名
-
+$ git clone git@github.com:renyuns/gitskills.git  renyuns/gitskills 要修改为自己的git用户名和库名
 # GitHub 支持多种协议,上面是 ssh 协议,还有 https 协议
-
 可以先把代码从别人的github仓库中fork到自己的github仓库中，然后再拉取到本地
 
 ```
 
+##### 将自己github的代码推送到别人的仓库
 
-
-
+```
+先将仓库fork到自己的github仓库中，然后拉取到本地，在本地将代码修改完成之后，push到自己的github仓库中，然后在GitHub上将代码Pull requset到别人的仓库中
+```
 
